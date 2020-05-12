@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
     class mypageadapter extends FragmentPagerAdapter{
 
-        String data[]={"calls","status","video"};
+        String data[]={"calls","status","videoChat"};
 
         public mypageadapter(@NonNull FragmentManager fm) {
             super(fm);
